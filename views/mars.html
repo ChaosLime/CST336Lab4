@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
     <%include partials/header.ejs %>
-    <body>
-        <h1 id="planetTitle"> Mars </h1>
-        <p id="planetInfo">Mars has been known since prehistoric times. Of course, it has been 
+        <h1 class="jumbotron"> Mars </h1>
+    <% include partials/nav %>
+
+        <p class="text-primary">Mars has been known since prehistoric times. Of course, it has been 
         extensively studied with ground-based observatories. But even very large
         telescopes find Mars a difficult target, it’s just too small.
         It is still a favorite of science fiction writers as the most 
@@ -11,17 +12,5 @@
         But the famous “canals” “seen” by Lowell and others were, unfortunately,
         just as imaginary as Barsoomian princesses.</p>        
         
-        <p>Click on a planet to know more about it:</p>
-        
-            <a href="/mercury.html"> Mercury </a><br>
-            <a href="/venus.html"> Venus </a><br>
-            <a href="/earth.html"> Earth </a><br>
-            <strong> Mars </strong> <br>
-            <a href="/jupiter.html"> Jupiter </a><br>
-            <a href="/saturn.html"> Saturn </a><br>
-            <a href="/uranus.html"> Uranus </a><br>
-            <a href="/neptune.html"> Neptune </a><br>
-
-            
-            <img src="/img/mars.png" alt="mars"/>
+        <img src="/img/mars.png" alt="mars"/>
     <% include partials/footer %>
