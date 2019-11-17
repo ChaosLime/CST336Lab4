@@ -1,0 +1,12 @@
+body {
+    background-color: #CBE2F6;
+    text-align: center;
+}
+
+.planetTitle {
+    font-size: 150px;
+}
+
+.planetInfo {
+    width: 50%;
+}
